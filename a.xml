@@ -69,7 +69,6 @@
 
     </RelativeLayout>
 
-
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
@@ -79,7 +78,7 @@
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:weightSum="3"
-        android:orientation="horizontal"
+        android:orientaion="horizontal"
         android:background="#FFFFFF">
         <TextView
             android:layout_width="match_parent"
@@ -98,10 +97,10 @@
             android:gravity="center"/>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="#000000"
             android:gravity="center"
+            android:textColor="#000000"
             android:text="공유하기"/>
     </LinearLayout>
     <View
